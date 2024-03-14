@@ -26,107 +26,107 @@ import photoGirlSix from "../assets/Girl/2X6A3601.jpg";
 export const data = [
     {
         id: 1,
-        searchTeam:['#лодочка', '#мальчик','#все'],
+        searchTeam:['лодочка', 'мальчик','все'],
         image: photoBoatOne
     },
     {
         id: 2,
-        searchTeam:['#лодочка', '#мальчик','#все'],
+        searchTeam:['лодочка', 'мальчик','все'],
         image: photoBoatFive
     },  
     {
         id: 3,
-        searchTeam:['#лодочка', '#мальчик','#все'],
+        searchTeam:['лодочка', 'мальчик','все'],
         image: photoBoatSix
     },
     {
         id: 4,
-        searchTeam:['#самолет', '#мальчик','#все'],
+        searchTeam:['самолет', 'мальчик','все'],
         image: photoPlaneFour
     },
     {
         id: 5,
-        searchTeam:['#самолет', '#мальчик','#все'],
+        searchTeam:['самолет', 'мальчик','все'],
         image: photoPlaneFive
     },
     {
         id: 6,
-        searchTeam:['#самолет', '#мальчик','#все'],
+        searchTeam:['самолет', 'мальчик','все'],
         image: photoPlaneSix
     },
     {
         id: 7,
-        searchTeam:['#самолет', '#мальчик','#все'],
+        searchTeam:['самолет', 'мальчик','все'],
         image: photoPlaneOne
     },
     {
         id: 8,
-        searchTeam:['#самолет', '#девочка','#все'],
+        searchTeam:['самолет', 'девочка','все'],
         image: photoPlaneTwo
     },
     {
         id: 9,
-        searchTeam:['#самолет', '#мальчик','#все'],
+        searchTeam:['самолет', 'мальчик','все'],
         image: photoPlaneThree
     },
     {
         id: 10,
-        searchTeam:['#девочка','#все'],
+        searchTeam:['девочка','все'],
         image: photoGirlOne
     },
     {
         id: 11,
-        searchTeam:['#девочка','#все'],
+        searchTeam:['девочка','все'],
         image: photoGirlTwo
     },
     {
         id: 12,
-        searchTeam:['#девочка','#все'],
+        searchTeam:['девочка','все'],
         image: photoGirlThree
     },
     {
         id: 13,
-        searchTeam:['#день рождения', '#мальчик','#все'],
+        searchTeam:['день рождения', 'мальчик','все'],
         image: photoHBdayOne
     },
     {
         id: 14,
-        searchTeam:['#день рождения', '#девочка', '#мальчик','#все'],
+        searchTeam:['день рождения', 'девочка', 'мальчик','все'],
         image: photoHBdayTwo
     },
     {
         id: 15,
-        searchTeam:['#день рождения', '#девочка','#все'],
+        searchTeam:['день рождения', 'девочка','все'],
         image: photoHBdayThree
     },
     {
         id: 16,
-        searchTeam:['#девочка','#все'],
+        searchTeam:['девочка','все'],
         image: photoGirlFour
     },
     {
         id: 17,
-        searchTeam:['#девочка','#все'],
+        searchTeam:['девочка','все'],
         image: photoGirlFive
     },
     {
         id: 18,
-        searchTeam:['#девочка','#все'],
+        searchTeam:['девочка','все'],
         image: photoGirlSix
     },
     {
         id: 19,
-        searchTeam:['#лодочка', '#девочка','#все'],
+        searchTeam:['лодочка', 'девочка','все'],
         image: photoBoatTwo
     },
     {
         id: 20,
-        searchTeam:['#лодочка', '#девочка','#все'],
+        searchTeam:['лодочка', 'девочка','все'],
         image: photoBoatThree
     },
     {
         id: 21,
-        searchTeam:['#лодочка', '#девочка','#все'],
+        searchTeam:['лодочка', 'девочка','все'],
         image: photoBoatFour
     }
 ]

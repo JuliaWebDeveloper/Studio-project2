@@ -1,13 +1,13 @@
-import "./style.css";
+// import "./style.css";
 
-const Loader = () => {
-    return(
+// const Loader = () => {
+//     return(
 
-        <div id="bt-preloader">
-            <div className="bt-preloadericon">
-            </div>
-        </div>
+//         <div id="bt-preloader">
+//             <div className="bt-preloadericon">
+//             </div>
+//         </div>
 
-    )
-}
-export default Loader;
+//     )
+// }
+// export default Loader;

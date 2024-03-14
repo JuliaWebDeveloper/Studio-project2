@@ -3,7 +3,6 @@ body {
   margin: 0;
   background:black;
   padding: 0;
-  
 }
 
 .navbar {
@@ -54,11 +53,14 @@ p,.btn,.portfolio-btn,.text,h1,h2,h4,h6,li,.accordion-item,.accordion-header,
 .nav-link:hover,.nav-link:focus,#basic-nav-dropdown:focus,.nav-link-item:hover {
   color: white;
   text-decoration-line:underline;
+  background: none;
+  border: none;
 }
 
 #basic-nav-dropdown{
   background: none;
   color: white;
+  outline: none;
 }
 
 .nav-link-item {
@@ -337,7 +339,7 @@ p {
   justify-content: center;
   background-color: transparent;
   border: none;
-  outline: 2px solid rgb(255, 255, 255);
+  outline: none;
   box-shadow: 0px 0px 10px rgb(255, 255, 255);
   position: relative;
 }
@@ -419,10 +421,6 @@ h2 {
 h1 {
   margin-top: 150px;
   margin-bottom: 50px;
-}
-  
-.btn.price{
-  margin-top:15px;
 }
   
 /* Question.js */
@@ -520,8 +518,7 @@ h6 {
   transition:all 0.7s;
 }
 
-/* GirlsClothesSlaider.js */
-/* BoysClothesSlaider.js */
+/* SlaiderButtons.js */
 
 .cta {
   position: relative;
@@ -563,7 +560,7 @@ h6 {
 }
 
 /* Loader */
-
+/* 
 #bt-preloader {
   top: 0;
   left: 0;
@@ -583,9 +580,9 @@ h6 {
   position: absolute;
   margin: -45px 0 0 -60px;
   background: url("./assets/Icons/bgcamera1.png") no-repeat;
-}
+} */
 
-.bt-preloadericon:after {
+/* .bt-preloadericon:after {
   top: 25px;
   right: 23px;
   content: '';
@@ -607,8 +604,8 @@ h6 {
     -ms-transform: rotate(0deg);
     -o-transform: rotate(0deg);
     transform: rotate(0deg);
-    }
-    to {
+    } */
+    /* to {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
@@ -631,7 +628,7 @@ h6 {
     -o-transform: rotate(360deg);
     transform: rotate(360deg);
     }
-   }
+   } */
 
    @media all and (max-width:1280px) {
     
@@ -1338,6 +1335,7 @@ h6 {
       margin:0 0 0 -170%;
     }
   }
+  
 
 
    

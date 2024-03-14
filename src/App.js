@@ -22,11 +22,11 @@ import "./App.css";
 
 function App() {
 
-  const [stateLoader, setStateLoader] = useState(true);
+//   const [stateLoader, setStateLoader] = useState(true);
 
-  useEffect(() => {
-  const timer = setTimeout(() => setStateLoader(false),3000);
-},[])
+//   useEffect(() => {
+//   const timer = setTimeout(() => setStateLoader(false),3000);
+// },[])
 
   const [expanded, setExpanded] = useState(false);
 
@@ -37,16 +37,6 @@ function App() {
   const closeNav = () => {
     setExpanded(false);
   };
-
-
-
-
-
-
-
-
-
-
 
   return <Router>
     
@@ -68,7 +58,7 @@ function App() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    {stateLoader && <LoaderPage/>}
+    {/* {stateLoader && <LoaderPage/>} */}
     
     
     <Routes>

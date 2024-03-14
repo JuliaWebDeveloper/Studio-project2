@@ -1,51 +1,36 @@
+import { dataPrices } from "../Prices/dataPrices";
+
 function Prices() {
 
     return(
-    <div className="main-price-container">
-        <h1>Цены</h1>
-        <div className="container">
-            <div className="price-container">
-                <h4>Пакет Экспресс</h4>
-                <h2>5 000 руб.</h2>
-                <ul>
-                    <li>1 образ</li>
-                    <li>1 реквизит на выбор</li>
-                    <li>1 фотозона на виниловом фоне(цвет на выбор), украшенная шарами</li>
-                    <li>10 фотографий в обработке</li>
-                    <li>Время съемки - 30 минут</li>
-                    <li>Готовность фотографий - 1 неделя</li>
-                </ul>
-                <a href="https://wa.me/77777777777" className="btn price">Запись на фотосессию</a>
-            </div>
-            <div className="price-container">
-                <h4>Пакет Классический</h4>
-                <h2>7 000 руб.</h2>
-                <ul>
-                    <li>2-3 образа</li>
-                    <li>3 реквизита на выбор</li>
-                    <li>2 фотозона на виниловом фоне(цвет на выбор), одна из них, украшенная шарами + 1 тканевый фотофон</li>
-                    <li>25 фотографий в обработке</li>
-                    <li>Время съемки - 1 час</li>
-                    <li>Готовность фотографий - 2 недели</li>
-                </ul>
-                <a href="https://wa.me/77777777777" className="btn">Запись на фотосессию</a>
-            </div>
-            <div className="price-container">
-                <h4>Пакет Макси</h4>
-                <h2>10 000 руб.</h2>
-                <ul>
-                    <li>3-4 образа</li>
-                    <li>Весь имеющийся реквизит на выбор</li>
-                    <li>Все фотозоны, включая фотозону из натурального дерева</li>
-                    <li>40 фотографий в обработке</li>
-                    <li>Время съемки - 2 часа</li>
-                    <li>Готовность фотографий - 3 недели</li>
-                </ul>
-                <a href="https://wa.me/77777777777" className="btn">Запись на фотосессию</a>
+        <div className="main-price-container" >
+            <h1>Цены</h1>
+            <div className="container">
+            {dataPrices.map((element) => {
+            const { id, name, price, image, requisites, photoZone, photos, time, period } = element;
+                return(
+                    <div key={id}>
+                        <div className="price-container">
+                            <h4>{name}</h4>
+                            <h2>{price}</h2>
+                            <ul>
+                               <li>{image}</li>
+                               <li>{requisites}</li>
+                               <li>{photoZone}</li>
+                               <li>{photos}</li>
+                               <li>{time}</li>
+                               <li>{period}</li>
+                            </ul>
+                            <a href="https://wa.me/77777777777" className="btn">Запись на фотосессию</a>
+                        </div>
+                    </div>
+                )
+            })}
             </div>
         </div>
-    </div>
     )
+        
+    
 
 }
 export default Prices;

@@ -30,128 +30,155 @@ import BoysClotheFourteen from "../../assets/style_boy/1_14.jpg";
 import BoysClotheFifteen from "../../assets/style_boy/1_15.jpg";
 
 
-export const dataGirlsClothes = [
+export const dataClothes = [
     {
         id: 1,
-        image: GirlsClotheOne
+        image: GirlsClotheOne,
+        clothesFor: "Для девочки"
     },
     {
         id: 2,
-        image: GirlsClotheTwo
+        image: GirlsClotheTwo,
+        clothesFor: "Для девочки"
     },
     {
         id: 3,
-        image: GirlsClotheThree
+        image: GirlsClotheThree,
+        clothesFor: "Для девочки"
     },
     {
         id: 4,
-        image: GirlsClotheFour
+        image: GirlsClotheFour,
+        clothesFor: "Для девочки"
     },
     {
         id: 5,
-        image: GirlsClotheFive
+        image: GirlsClotheFive,
+        clothesFor: "Для девочки"
     },
     {
         id: 6,
-        image: GirlsClotheSix
+        image: GirlsClotheSix,
+        clothesFor: "Для девочки"
     },
     {
         id: 7,
-        image: GirlsClotheSeven
+        image: GirlsClotheSeven,
+        clothesFor: "Для девочки"
     },
     {
         id: 8,
-        image: GirlsClotheEight
+        image: GirlsClotheEight,
+        clothesFor: "Для девочки"
     },
     {
         id: 9,
-        image: GirlsClotheNine
+        image: GirlsClotheNine,
+        clothesFor: "Для девочки"
     },
     {
         id: 10,
-        image: GirlsClotheTen
+        image: GirlsClotheTen,
+        clothesFor: "Для девочки"
     },
     {
         id: 11,
-        image: GirlsClotheEleven
+        image: GirlsClotheEleven,
+        clothesFor: "Для девочки"
     },
     {
         id: 12,
-        image: GirlsClotheTwelve
+        image: GirlsClotheTwelve,
+        clothesFor: "Для девочки"
     },
     {
         id: 13,
-        image: GirlsClotheThirteen
+        image: GirlsClotheThirteen,
+        clothesFor: "Для девочки"
     },
     {
         id: 14,
-        image: GirlsClotheFourteen
+        image: GirlsClotheFourteen,
+        clothesFor: "Для девочки"
     },
     {
         id: 15,
-        image: GirlsClotheFifteen
-    }
-]
-
-export const dataBoysClothes = [
-    {
-        id: 1,
-        image: BoysClotheOne
+        image: GirlsClotheFifteen,
+        clothesFor: "Для девочки"
     },
     {
-        id: 2,
-        image: BoysClotheTwo
+        id: 16,
+        image: BoysClotheOne,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 3,
-        image: BoysClotheThree
+        id: 17,
+        image: BoysClotheTwo,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 4,
-        image: BoysClotheFour
+        id: 18,
+        image: BoysClotheThree,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 5,
-        image: BoysClotheFive
+        id: 19,
+        image: BoysClotheFour,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 6,
-        image: BoysClotheSix
+        id: 20,
+        image: BoysClotheFive,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 7,
-        image: BoysClotheSeven
+        id: 21,
+        image: BoysClotheSix,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 8,
-        image: BoysClotheEight
+        id: 22,
+        image: BoysClotheSeven,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 9,
-        image: BoysClotheNine
+        id: 23,
+        image: BoysClotheEight,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 10,
-        image: BoysClotheTen
+        id: 24,
+        image: BoysClotheNine,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 11,
-        image: BoysClotheEleven
+        id: 25,
+        image: BoysClotheTen,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 12,
-        image: BoysClotheTwelve
+        id: 26,
+        image: BoysClotheEleven,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 13,
-        image: BoysClotheThirteen
+        id: 27,
+        image: BoysClotheTwelve,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 14,
-        image: BoysClotheFourteen
+        id: 28,
+        image: BoysClotheThirteen,
+        clothesFor: "Для мальчика"
     },
     {
-        id: 15,
-        image: BoysClotheFifteen
+        id: 29,
+        image: BoysClotheFourteen,
+        clothesFor: "Для мальчика"
+    },
+    {
+        id: 20,
+        image: BoysClotheFifteen,
+        clothesFor: "Для мальчика"
     }
 ]
