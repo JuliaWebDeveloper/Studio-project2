@@ -693,12 +693,16 @@ h6 {
     }
 
     .aboutme-photo-container{
-      overflow: hidden;
+      /* overflow: hidden;  */
+      
+      
     }
 
     .aboutme-photo {
+      /* height: 800px;
+      width: fit-content; */
       height: 100vh;
-      width:fit-content;
+      
     }
 
     .text {
@@ -887,7 +891,7 @@ h6 {
 
     .aboutme-photo {
       display: block;
-      margin:0 0 0 0;
+      /* margin:0 0 0 0; */
     }
 
     .main-price-container {
@@ -980,7 +984,7 @@ h6 {
     .aboutme-photo-mini {
       display: block;
       height: 1380px;
-      width: fit-content;
+      /* width: fit-content; */
     }
 
     .aboutme-photo {
@@ -1232,9 +1236,15 @@ h6 {
       padding:10px 30px;
     }
 
+    .aboutme-photo-container{
+      overflow: hidden;
+    }
+
     .aboutme-photo-mini {
       height: 950px;
+      width:auto;
       margin:0 0 0 -20%;
+      
     }
 
     /* .aboutme-photo {
@@ -1275,7 +1285,7 @@ h6 {
     }
 
     .aboutme-photo-mini {
-      height: 900px; 
+      height: 915px; 
     }
 
     /* .aboutme-photo {
