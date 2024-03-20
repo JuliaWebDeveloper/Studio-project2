@@ -1,4 +1,5 @@
 import My from "../../assets/2X6A4141.jpg";
+import MyMini from "../../assets/2X6A4141_mini.jpg"
 
 function AboutMe() {
     return(
@@ -6,6 +7,7 @@ function AboutMe() {
         <div className="aboutme-container">
             <div className="aboutme-photo-container">
                 <img className="aboutme-photo" src={My} width="100%" height="50%" alt="me" />
+                <img className="aboutme-photo-mini" src={MyMini} width="100%" height="50%" alt="me" />
                 <button className="btn-scroll">
                   <div className="scroll"></div>
                 </button>

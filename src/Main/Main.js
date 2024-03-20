@@ -45,8 +45,8 @@ function Main() {
           <img src={mainPhotoNine} className="d-block nine" alt="photo"/>
         </Carousel.Item>
       </Carousel>
-      <MyApplication />
-      <MyBlog />
+        <MyApplication />
+        <MyBlog />
     </div>
   );
 }
