@@ -655,6 +655,10 @@ h6 {
       height: 100vh;
     }
 
+    .d-none.d-lg-block,.d-lg-none {
+      height: 100vh;
+      width: auto;
+    }
   
 
     .application-block {
@@ -809,6 +813,8 @@ h6 {
     .nav-link-item {
       font-size: 12px;
     }
+
+    
     
     .application-block {
       bottom: 40px;
@@ -899,6 +905,10 @@ h6 {
     }
     .application-block,.blog-block {
       position: fixed;
+    }
+    .d-none.d-lg-block,.d-lg-none {
+      width: 100vw;
+      height: auto;
     }
 
     .aboutme-photo-mini {
