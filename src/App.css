@@ -83,8 +83,8 @@ p,.btn,.portfolio-btn,.text,h1,h2,h4,h6,li,.accordion-item,.accordion-header,
 }
 
 .d-none.d-lg-block,.d-lg-none {
-  width:100%;
-  background-size:auto;
+  width:100vw;
+  height: auto;
 }
 
 /* MyApplication.js */
@@ -655,10 +655,7 @@ h6 {
       height: 100vh;
     }
 
-    .d-none.d-lg-block {
-      height: 100vh;
-      width:fit-content;
-    }
+  
 
     .application-block {
       left: 60px;
