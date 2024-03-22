@@ -82,7 +82,7 @@ p,.btn,.portfolio-btn,.text,h1,h2,h4,h6,li,.accordion-item,.accordion-header,
   max-height:fit-content;
 }
 
-.d-block {
+.d-none.d-lg-block,.d-lg-none {
   width:100%;
   background-size:auto;
 }
@@ -92,9 +92,8 @@ p,.btn,.portfolio-btn,.text,h1,h2,h4,h6,li,.accordion-item,.accordion-header,
 .application-block {
   z-index: 1;
   position:absolute;
-  bottom: 0;
-  margin-bottom: 60px;
-  margin-left: 60px;
+  bottom: 67px;
+  left: 60px;
 }
 
 p {
@@ -124,10 +123,8 @@ p {
 .blog-block {
   z-index: 1;
   position:absolute;
-  bottom: 0;
-  right: 0;
-  margin-right: 60px;
-  margin-bottom: 60px;
+  right: 60px;
+  bottom: 67px;
 }
 
 .card {
@@ -658,13 +655,13 @@ h6 {
       height: 100vh;
     }
 
-    .d-block {
+    .d-none.d-lg-block {
       height: 100vh;
       width:fit-content;
     }
 
     .application-block {
-      margin-left: 60px;
+      left: 60px;
     }
     
     p {
@@ -672,7 +669,7 @@ h6 {
     }
 
     .blog-block {
-      margin-right: 60px;
+      right: 60px;
     }
 
     .card {
@@ -683,8 +680,6 @@ h6 {
       height: 42px; 
       margin: 0px 5px;
     }
-
-    
 
     .socialSvg {
       width: 15px;
@@ -698,17 +693,8 @@ h6 {
       width: 350px;
     }
 
-    .aboutme-photo-container{
-      /* overflow: hidden;  */
-      
-      
-    }
-
     .aboutme-photo {
-      /* height: 800px;
-      width: fit-content; */
       height: 100vh;
-      
     }
 
     .text {
@@ -767,45 +753,9 @@ h6 {
       --bs-tertiary-bg: none;
     }
 
-    .d-block.one{
-      margin:0 0 0 -79%;
-    }
-
-    .d-block.two{
-      margin:0 0 0 -90%;
-    }
-
-    .d-block.three{
-      margin:0 0 0 -45%;
-    }
-
-    .d-block.four{
-      margin:0 0 0 -40%;
-    }
-
-    .d-block.five{
-      margin:0 0 0 -50%;
-    }
-
-    .d-block.six{
-      margin:0 0 0 -115%;
-    }
-
-    .d-block.seven{
-      margin:0 0 0 -25%;
-    }
-
-    .d-block.eight{
-      margin:0 0 0 -37%;
-    }
-
-    .d-block.nine{
-      margin:0 0 0 -30%;
-    }
-
     .application-block {
-      margin-left: 50px;
-      margin-bottom: 70px;
+      left: 50px;
+      bottom: 70px;
     }
     
     p {
@@ -813,8 +763,8 @@ h6 {
     }
 
     .blog-block {
-      margin-right: 60px;
-      margin-bottom: 60px;
+      right: 60px;
+      bottom: 60px;
     }
 
     .socialContainer {
@@ -841,7 +791,6 @@ h6 {
 
     .aboutme-photo {
       display: none;
-      /* margin:0 0 0 -100%; */
     }
 
     .text {
@@ -864,14 +813,8 @@ h6 {
       font-size: 12px;
     }
     
-    .d-block.one,.d-block.two,.d-block.three,
-    .d-block.four,.d-block.five,.d-block.six,
-    .d-block.seven,.d-block.eight,.d-block.nine {
-      margin:0 0 0 0;
-    }
-
     .application-block {
-      margin-bottom: 40px;
+      bottom: 40px;
     }
     
     p {
@@ -879,8 +822,8 @@ h6 {
     }
 
     .blog-block {
-      margin-right: 60px;
-      margin-bottom: 40px;
+      right: 60px;
+      bottom: 40px;
     }
 
     .btn {
@@ -898,9 +841,6 @@ h6 {
     .aboutme-photo {
       display: block;
       height: 90vh;
-
-      
-      /* margin:0 0 0 0; */
     }
 
     .main-price-container {
@@ -960,41 +900,8 @@ h6 {
       --bs-body-bg: none;
       --bs-tertiary-bg: none;
     }
-
-    .d-block.one{
-      margin:0 0 0 -95%;
-    }
-
-    .d-block.two{
-      margin:0 0 0 -95%;
-    }
-
-    .d-block.three{
-      margin:0 0 0 -48%;
-    }
-
-    .d-block.four{
-      margin:0 0 0 -50%;
-    }
-
-    .d-block.five{
-      margin:0 0 0 -50%;
-    }
-
-    .d-block.six{
-      margin:0 0 0 -140%;
-    }
-
-    .d-block.seven{
-      margin:0 0 0 -35%;
-    }
-
-    .d-block.eight{
-      margin:0 0 0 -47%;
-    }
-
-    .d-block.nine{
-      margin:0 0 0 -30%;
+    .application-block,.blog-block {
+      position: fixed;
     }
 
     .aboutme-photo-mini {
@@ -1006,10 +913,6 @@ h6 {
     .aboutme-photo {
       display: none;
     }
-
-    /* .aboutme-photo {
-      margin:0 0 0 -115%;
-    } */
 
     .text {
       padding:10px 100px;
@@ -1044,10 +947,6 @@ h6 {
       font-size: 12px;
     }
 
-    .d-block.one{
-      margin:0 0 0 -90%;
-    }
-
     .btn {
       font-size: 15px;
     }
@@ -1079,47 +978,9 @@ h6 {
 
    @media all and (max-width: 768px) {
 
-    .d-block.one{
-      margin:0 0 0 -78%;
-    }
-
-    .d-block.two{
-      margin:0 0 0 -88%;
-    }
-
-    .d-block.three{
-      margin:0 0 0 -40%;
-    }
-
-    .d-block.four{
-      margin:0 0 0 -35%;
-    }
-
-    .d-block.six{
-      margin:0 0 0 -120%;
-    }
-    .d-block.seven{
-      margin:0 0 0 -25%;
-    }
-
-    .d-block.eight{
-      margin:0 0 0 -36%;
-    }
-
     .aboutme-photo-mini {
       height: 1075px;
     }
-
-    /* .aboutme-photo-container{
-      overflow:auto;
-    }
-
-    .aboutme-photo {
-      height: 100vh;
-      width: fit-content;
-      margin:0 0 0 -105%;
-    } */
-    
 
     .question-container {
       flex-wrap: wrap;
@@ -1159,8 +1020,8 @@ h6 {
     }
 
     .application-block {
-      margin-left: 30px;
-      margin-bottom: 30px;
+      left: 30px;
+      bottom: 30px;
     }
 
     p {
@@ -1187,8 +1048,8 @@ h6 {
     }
 
     .blog-block {
-      margin-right: 30px;
-      margin-bottom: 30px;
+      right: 30px;
+      bottom: 30px;
     }
 
     .portfolio-container {
@@ -1219,48 +1080,17 @@ h6 {
 
    @media all and (max-width: 430px) {
 
-    .d-block.one{
-      margin:0 0 0 -170%;
-    }
-
-    .d-block.two{
-      margin:0 0 0 -135%;
-    }
-
-    .d-block.three{
-      margin:0 0 0 -95%;
-    }
-
-    .d-block.four{
-      margin:0 0 0 -90%;
-    }
-
-    .d-block.five{
-      margin:0 0 0 -85%;
-    }
-
-    .d-block.six{
-      margin:0 0 0 -240%;
-    }
-
-    .d-block.seven{
-      margin:0 0 0 -100%;
-    }
-
-    .d-block.eight{
-      margin:0 0 0 -105%;
-    }
-
-    .d-block.nine{
-      margin:0 0 0 -65%;
-    }
+    .d-none.d-lg-block,.d-lg-none {
+      height: 100vh;
+      width: fit-content;
+     }
 
     .application-block {
-      margin-left: 12px;
+      left: 12px;
     }
 
     .blog-block {
-      margin-right: 12px;
+      right: 12px;
     }
 
     p {
@@ -1268,23 +1098,14 @@ h6 {
     }
 
     .btn {
-      padding:10px 30px;
+      padding:10px 25px;
     }
-
-    /* .aboutme-photo-container{
-      overflow: hidden;
-    } */
 
     .aboutme-photo-mini {
       height: 950px;
-      /* width:auto; */
       margin:0 0 0 -20%;
       
     }
-
-    /* .aboutme-photo {
-      margin:0 0 0 0;
-    } */
 
     .style-item {
       margin: 0px 0px 30px 0px;
@@ -1307,40 +1128,24 @@ h6 {
 
    @media all and (max-width: 414px) {
 
-    .d-block.two{
-      margin:0 0 0 -140%;
-    }
-
     .aboutme-photo-mini {
       height: 915px; 
     }
-
-    /* .aboutme-photo {
-      margin:0 0 0 -185%;
-    } */
    }
 
    @media all and (max-width: 390px) {
 
     .card {
       padding: 4px 2px;
-      
     }
 
     .socialContainer {
-      
       margin: 0px 3px;
     }
 
     .aboutme-photo-mini {
       height: 850px; 
     }
-
-    /* .aboutme-photo {
-      
-      max-height:100%;
-      
-    } */
 
     .text {
       padding:10px;
@@ -1349,108 +1154,28 @@ h6 {
 
    @media all and (max-width: 375px) {
 
-    .d-block.one{
-      margin:0 0 0 -128%;
-    }
-
-    .d-block.two{
-      margin:0 0 0 -104%;
-    }
-
-    .d-block.three{
-      margin:0 0 0 -70%;
-    }
-
-    .d-block.four{
-      margin:0 0 0 -65%;
-    }
-
-    .d-block.five{
-      margin:0 0 0 -70%;
-    }
-
-    .d-block.six{
-      margin:0 0 0 -190%;
-    }
-
-    .d-block.seven{
-      margin:0 0 0 -75%;
-    }
-
-    .d-block.eight{
-      margin:0 0 0 -66%;
-    }
-
-    .d-block.nine{
-      margin:0 0 0 -55%;
-    }
-
     .btn {
-      padding:10px 23px;
+      padding:10px 20px;
     }
 
     .aboutme-photo-mini {
       height: 670px; 
     }
-
-    /* .aboutme-photo {
-      margin:0 0 0 -150%;
-    } */
    }
 
    @media all and (max-width: 360px) {
 
-    .d-block.one{
-      margin:0 0 0 -158%;
-    }
-
-    .d-block.two{
-      margin:0 0 0 -124%;
-    }
-
-    .d-block.three{
-      margin:0 0 0 -80%;
-    }
-
-    .d-block.four{
-      margin:0 0 0 -75%;
-    }
-
-    .d-block.five{
-      margin:0 0 0 -75%;
-    }
-
-    .d-block.six{
-      margin:0 0 0 -220%;
-    }
-
-    .d-block.seven{
-      margin:0 0 0 -85%;
-    }
-
-    .d-block.eight{
-      margin:0 0 0 -76%;
-    }
-    
-    .d-block.nine{
-      margin:0 0 0 -55%;
-    }
-
     .application-block {
-      margin-left: 8px;
+      left: 8px;
     }
 
     .blog-block {
-      margin-right: 8px;
+      right: 8px;
     }
 
     .aboutme-photo-mini {
       height: 750px; 
     }
-
-    /* .aboutme-photo {
-      margin:0 0 0 -170%;
-    } */
   }
   
 
