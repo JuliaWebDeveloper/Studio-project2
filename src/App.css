@@ -91,7 +91,8 @@ p,.btn,.portfolio-btn,.text,h1,h2,h4,h6,li,.accordion-item,.accordion-header,
 
 .application-block {
   z-index: 1;
-  position:absolute;
+  /* position:absolute; */
+  position: fixed;
   bottom: 67px;
   left: 60px;
 }
@@ -122,7 +123,8 @@ p {
 
 .blog-block {
   z-index: 1;
-  position:absolute;
+  /* position:absolute; */
+  position: fixed;
   right: 60px;
   bottom: 67px;
 }
@@ -651,9 +653,9 @@ h6 {
       font-size: 12px;
     }
 
-    /* .main-container {
+    .main-container {
       height: 100vh;
-    } */
+    }
 
     .d-none.d-lg-block,.d-lg-none {
       height: 100vh;
@@ -1088,7 +1090,7 @@ h6 {
     .d-none.d-lg-block,.d-lg-none {
       height: 100vh;
       width:auto;
-      margin: 0 0 0 -10%;
+      /* margin: 0 0 0 -10%; */
      }
 
     .application-block {
