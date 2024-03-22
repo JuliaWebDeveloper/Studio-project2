@@ -651,16 +651,15 @@ h6 {
       font-size: 12px;
     }
 
-    .main-container {
+    /* .main-container {
       height: 100vh;
-    }
+    } */
 
     .d-none.d-lg-block,.d-lg-none {
       height: 100vh;
       width: auto;
     }
   
-
     .application-block {
       left: 60px;
     }
@@ -676,6 +675,7 @@ h6 {
     .card {
       padding: 7px 5px; 
     }
+
     .socialContainer {
       width: 42px;
       height: 42px; 
@@ -814,8 +814,6 @@ h6 {
       font-size: 12px;
     }
 
-    
-    
     .application-block {
       bottom: 40px;
     }
@@ -903,9 +901,9 @@ h6 {
       --bs-body-bg: none;
       --bs-tertiary-bg: none;
     }
-    .application-block,.blog-block {
+    /* .application-block,.blog-block {
       position: fixed;
-    }
+    } */
     .d-none.d-lg-block,.d-lg-none {
       width: 100vw;
       height: auto;
@@ -1089,7 +1087,8 @@ h6 {
 
     .d-none.d-lg-block,.d-lg-none {
       height: 100vh;
-      width: fit-content;
+      width:auto;
+      margin: 0 0 0 -10%;
      }
 
     .application-block {
