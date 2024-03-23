@@ -8,7 +8,6 @@ import mainPhotoSeven from "../assets/Main/2X6A3442.jpg";
 import mainPhotoEight from "../assets/Main/2X6A3540.jpg";
 import mainPhotoNine from "../assets/Main/2X6A3500.jpg";
 
-
 import mainPhotoOneMini from "../assets/Main/2X6A3665_mini.jpg";
 import mainPhotoTwoMini from "../assets/Main/2X6A2841_mini.jpg";
 import mainPhotoThreeMini from "../assets/Main/2X6A2797_mini.jpg";
@@ -18,14 +17,6 @@ import mainPhotoSixMini from "../assets/Main/2X6A3023_mini.jpg";
 import mainPhotoSevenMini from "../assets/Main/2X6A3442_mini.jpg";
 import mainPhotoEightMini from "../assets/Main/2X6A3540_mini.jpg";
 import mainPhotoNineMini from "../assets/Main/2X6A3500_mini.jpg";
-
-
-
-
-
-
-
-
 
 import MyApplication from "../Main/MyApplication";
 import MyBlog from "../Main/MyBlog";

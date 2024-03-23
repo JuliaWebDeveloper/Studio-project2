@@ -1,49 +1,9 @@
-// import BoysClothesSlaider from "../Clothes/BoysClothesSlaider";
-// import GirlsClothesSlaider from "../Clothes/GirlsClothesSlaider";
-import { useState } from "react";
 import { dataClothes } from "../Clothes/dataClothes";
 import ClothesSlaider from "./ClothesSlaider";
 
 
 
 function Clothes() {
-
-    const [kidsClothes, setKidsClothes] = useState(0);
-    const {id, image, clothesFor} = dataClothes[kidsClothes];
-
-
-    const girlsClothes = dataClothes.filter(element =>
-        element.clothesFor === "Для девочки"
-        );
-    const boysClothes = dataClothes.filter(element =>
-        element.clothesFor === "Для мальчика"
-        );
-
-    console.log(girlsClothes);
-    console.log(boysClothes);
-
-
-    const previousClothes = () => {
-        setKidsClothes((kidsClothes => {
-            kidsClothes --;
-            if(kidsClothes<0) {
-                return dataClothes.length-1;
-            }
-            return kidsClothes;
-        }))
-    }
-
-    const nextClothes = () => {
-        setKidsClothes((kidsClothes => {
-            kidsClothes ++;
-            if(kidsClothes > dataClothes.length-1) {
-                kidsClothes=0;
-            }
-            return kidsClothes;
-        }))
-    }
-
-    
 
     return(
         <div className="clothes-container">
@@ -67,21 +27,25 @@ function Clothes() {
             </ul>
             <p className="text">Для того, чтобы вам было легче сориентироваться, я сделал небольшую подборку образов для девочек и мальчиков.</p>
             <div className="container">
-                <ClothesSlaider 
-                clothesFor="Для девочки"
-                image={girlsClothes.image}
-                previousClothes={previousClothes}
-                nextClothes={nextClothes}/>
-               <ClothesSlaider 
-                  clothesFor="Для мальчика"
-                  image={boysClothes.image}
-                previousClothes={previousClothes}
-                nextClothes={nextClothes} />  
+                {
+                    dataClothes.map((item) => {
+                        const {id, image, clothesFor} = item;
+                        return (
+                            <div className="clothes-container" key={id}>
+                                <h4>{clothesFor}</h4>
+                                <div>
+                                   <ClothesSlaider image={image}/>
+                                </div>
+                            </div>
+                        )
+                    })
+                }
             </div>
             <p className="text">Если у вас есть сомнения по выбору одежды для фотосессии, я всегда рад помочь в выборе одежды для съемки.
                 Учитывая все ваши пожелания и концепцию фотосессии, выбранной фотозоны, я предложу цветовую гамму и помогу с выбором одежды и образов.
             </p>
             <a href="https://wa.me/77777777777" className="btn center">Запись на фотосессию</a>
+            <p className="fn">Этот сайт создан исключительно в образовательных целях. Pазработчик не имеет никаких прав на контент с фотографиями детской одежды KIABI. По вопросам обращайтесь по почте juliawebdev1@gmail.com</p>
         </div>
     )
 

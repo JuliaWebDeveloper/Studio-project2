@@ -1,11 +1,31 @@
+import { useState } from "react";
 import SlaiderButtons from "./SlaiderButtons";
 
-function ClothesSlaider({clothesFor, image, previousClothes, nextClothes}) {
+function ClothesSlaider({ image }) {
+
+    const [kidsClothes, setKidsClothes] = useState(0);
+
+    const previousClothes = () => {
+        setKidsClothes(kidsClothes => {
+            kidsClothes --;
+            if (kidsClothes < 0) return image.length - 1;
+            return kidsClothes;
+        })
+    }
+
+    const nextClothes = () => {
+        setKidsClothes(kidsClothes => {
+            kidsClothes ++;
+            if(kidsClothes > image.length-1) {
+                kidsClothes=0;
+            }
+            return kidsClothes;
+        })
+    }
     
     return(
         <div className="clothes-container">
-            <h4>{clothesFor}</h4>
-            <img src={image} width="400px" alt="Clothes"/>
+            <img src={image[kidsClothes]} width="400px" alt="Clothes"/>
             <SlaiderButtons 
                 previousClothes={previousClothes}
                 nextClothes={nextClothes}

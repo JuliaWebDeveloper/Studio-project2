@@ -24,7 +24,7 @@ body {
 
 .navbar-brand,.nav-link,.navbar-brand:hover,.navbar-brand:focus,.nav-link-item,
 p,.btn,.portfolio-btn,.text,h1,h2,h4,h6,li,.accordion-item,.accordion-header,
-.accordion-header:active,.style-item,.style-text,.cta span {
+.accordion-header:active,.style-item,.style-text,.cta span,.fn {
   font-family: 'Ubuntu', sans-serif;
   color: white;
 }
@@ -91,7 +91,6 @@ p,.btn,.portfolio-btn,.text,h1,h2,h4,h6,li,.accordion-item,.accordion-header,
 
 .application-block {
   z-index: 1;
-  /* position:absolute; */
   position: fixed;
   bottom: 67px;
   left: 60px;
@@ -123,7 +122,6 @@ p {
 
 .blog-block {
   z-index: 1;
-  /* position:absolute; */
   position: fixed;
   right: 60px;
   bottom: 67px;
@@ -563,6 +561,10 @@ h6 {
   transform: scale(0.95);
 }
 
+.fn {
+  font-size: 7px;
+}
+
 /* Loader */
 /* 
 #bt-preloader {
@@ -903,9 +905,7 @@ h6 {
       --bs-body-bg: none;
       --bs-tertiary-bg: none;
     }
-    /* .application-block,.blog-block {
-      position: fixed;
-    } */
+    
     .d-none.d-lg-block,.d-lg-none {
       width: 100vw;
       height: auto;
@@ -935,7 +935,7 @@ h6 {
     }
 
     .style-item:hover{
-      box-shadow: inset 0 -300px 0 -1px #f8f8f8a4;
+      box-shadow: inset 0 -320px 0 -1px #f8f8f8a4;
       transition:all 0.7s;
     }
   }
@@ -1090,7 +1090,6 @@ h6 {
     .d-none.d-lg-block,.d-lg-none {
       height: 100vh;
       width:auto;
-      /* margin: 0 0 0 -10%; */
      }
 
     .application-block {
@@ -1112,7 +1111,6 @@ h6 {
     .aboutme-photo-mini {
       height: 950px;
       margin:0 0 0 -20%;
-      
     }
 
     .style-item {

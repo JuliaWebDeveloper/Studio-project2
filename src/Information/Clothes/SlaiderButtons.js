@@ -1,4 +1,4 @@
-function SlaiderButtons({previousClothes,nextClothes}) {
+function SlaiderButtons({previousClothes, nextClothes}) {
    
     return(
         <div>
