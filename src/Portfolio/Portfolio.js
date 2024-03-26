@@ -3,7 +3,6 @@ import { data } from "../Portfolio/data";
 import PhotosForPortfolio from "../Portfolio/PhotosForPortfolio";
 import PortfolioButtons from "../Portfolio/PortfolioButtons";
 import "./style.css";
-import "../App.css";
 
 
 function Portfolio() {

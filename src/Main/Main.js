@@ -3,7 +3,6 @@ import SmallCarousel from "./SmallCarousel";
 import MyApplication from "../Main/MyApplication";
 import MyBlog from "../Main/MyBlog";
 import "./style.css";
-import "../App.css";
 
 
 

@@ -1,7 +1,6 @@
 import My from "../../assets/2X6A4141.jpg";
 import MyMini from "../../assets/2X6A4141_mini.jpg";
 import "./style.css";
-import "../../App.css";
 
 function AboutMe() {
     return(

@@ -9,7 +9,6 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
-import "../App.css";
 
 function MyNavbar() {
 
