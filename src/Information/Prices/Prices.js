@@ -1,4 +1,6 @@
 import { dataPrices } from "../Prices/dataPrices";
+import "./style.css";
+import "../../App.css";
 
 function Prices() {
 

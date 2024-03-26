@@ -1,0 +1,75 @@
+.main-price-container,.price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.main-price-container {  
+    background-image: linear-gradient(rgba(84, 112, 237, 0.1), rgba(0, 0, 0, 0.3)), url("../../assets/price.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+}
+    
+.price-container {
+    width: 350px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+    
+.price-container:hover {
+    margin-top:0px;
+}
+    
+h1,h2,h4,li {
+    font-weight: bolder;
+    line-height: 15px;
+    letter-spacing: 1.5px;
+    padding: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin: 15px 0px;
+}
+    
+h4 {
+    margin-top: 15px;
+}    
+
+@media all and (max-width:1024px) and (max-height: 653px) {
+    .main-price-container {
+        height: 100%;
+    }
+}
+@media all and (max-width: 912px) { 
+    .main-price-container {
+        height: 100%;
+        background-position: 65%;
+    }
+}
+
+@media all and (max-width: 853px) {
+    h1 {
+        font-size: 25px;
+    }
+  
+}
+
+@media all and (max-width: 430px) {
+    h1 {
+        line-height: 30px;
+        text-align: center;
+    }
+}

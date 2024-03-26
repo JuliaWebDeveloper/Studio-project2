@@ -1,0 +1,233 @@
+.navbar {
+  z-index: 2;
+  position: absolute;
+  width: 100%;
+  margin: 0;
+  top:0;
+}
+  
+.navbar-container{
+  max-width: 100%;
+}
+  
+.navbar-brand {
+  font-size: 25px;
+  margin-left:50px;
+}
+
+.navbar-brand,.nav-link,.navbar-brand:hover,.navbar-brand:focus {
+  margin-top: 60px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  line-height: 15px;
+  letter-spacing: 1.5px;
+}
+  
+.navbar-nav {
+  display: flex;
+  justify-content: end;
+  width: 100%; 
+  background: none;
+  margin-right: 60px;
+}
+
+.navbar-brand,.nav-link,.navbar-brand:hover,.navbar-brand:focus,.nav-link-item {
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+}
+  
+.nav-link {
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.nav-link:hover,.nav-link:focus,#basic-nav-dropdown:focus,.nav-link-item:hover {
+  color: white;
+  text-decoration-line:underline;
+  background: none;
+  border: none;
+}
+  
+#basic-nav-dropdown{
+  background: none;
+  color: white;
+  outline: none;
+}
+  
+.nav-link-item {
+  font-weight: bolder;
+  padding: 7px;
+  letter-spacing: 1.5px;
+  word-wrap:break-word;
+}
+
+[data-bs-theme="dark"] {
+  --bs-dropdown-border-color: black;
+  --bs-body-bg:  black;
+  --bs-tertiary-bg: black;
+}
+
+@media all and (max-width:1280px) {
+  .navbar-brand,.nav-link,.navbar-brand:hover,.navbar-brand:focus {
+    margin-top: 30px;
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+    margin-left:55px;
+  }
+  
+  .navbar-nav {
+    margin-right: 15px;
+  }
+  
+  .nav-link-item {
+    font-size: 12px;
+    }
+}
+
+@media all and (max-width:1024px) and (max-height: 1366px) {
+  .navbar-brand {
+    font-size: 25px;
+    margin-left:50px;
+  }
+  
+  .navbar-toggler {
+    background-color:#b3b1b1d0;
+    margin-right: 30px;
+    margin-top: 20px;
+  } 
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-nav {
+    background: #b3b1b1d0;
+  }
+  
+  .nav-link {
+    text-align: end;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+  
+  .dropdown-menu.show {
+    border:none;
+  }
+  
+  .navbar-toggler-icon{
+    background-image: url("../assets/Icons/icons8-burger.png");
+  }
+  
+  .nav-link-item {
+    text-align: end;
+    padding-right: 25px;
+    padding-top: 0px ;
+    font-size: 18px;
+  }
+      
+  [data-bs-theme="dark"] {
+    --bs-dropdown-border-color: none;
+    --bs-body-bg: none;
+    --bs-tertiary-bg: none;
+  }
+}
+
+@media all and (max-width:1024px) and (max-height: 653px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+  
+  .nav-link {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  
+  .nav-link-item {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 912px) {
+  .navbar-toggler {
+    background-color:#b3b1b1d0;
+    margin-right: 30px;
+    margin-top: 20px;
+  } 
+  
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .navbar-nav {
+    background: #b3b1b1d0;
+  }
+  
+  .nav-link {
+    text-align: end;
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .dropdown-menu.show {
+    border:none;
+  }
+  
+  .nav-link-item {
+    text-align: end;
+    padding-right: 25px;
+    padding-top: 0px ;
+    font-size: 18px;
+  }
+      
+  [data-bs-theme="dark"] {
+    --bs-dropdown-border-color: none;
+    --bs-body-bg: none;
+    --bs-tertiary-bg: none;
+  } 
+}
+
+@media all and (max-width: 853px) {
+  .navbar-brand {
+    font-size: 18px;
+  }
+  
+  .nav-link {
+    font-size: 14px;
+  }
+  
+  .nav-link-item {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 540px) {
+  .navbar-brand {
+    font-size: 15px;
+    margin-left:35px;
+  }
+  
+  .navbar-toggler-icon{
+    width: 20px;
+  }
+  
+  .navbar-toggler {
+    padding: 0px 8px;
+  }
+  
+  .nav-link {
+    font-size: 13px;
+    margin-top: 7px;
+  }
+  
+  .nav-link-item {
+    font-size: 12px;
+    }  
+}

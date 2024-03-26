@@ -1,5 +1,7 @@
 import { dataClothes } from "../Clothes/dataClothes";
 import ClothesSlaider from "./ClothesSlaider";
+import "./style.css";
+import "../../App.css";
 
 
 

@@ -1,4 +1,5 @@
 // import "./style.css";
+// import "../App.css";
 
 // const Loader = () => {
 //     return(
